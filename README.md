@@ -12,7 +12,7 @@ This tool provides a terminal-style interface for transforming selected text int
 * 🤡 **Sarcasm Case** (`aLtErNaTiNg caps`) — Source: 'Mocking SpongeBob' meme
 
 ## 🦏 The "ChronicRhyno" Collection
-* 🦓 **Zeebra Case** (`all|lowercase|piped`) — Coined by ChronicRhyno
+* 🦓 **Zebra Case** (`all|lowercase|piped`) — Coined by ChronicRhyno
 * 🐛 **Inchworm Case** (`alternating subscript/superscript words`) — Coined by ChronicRhyno
 * 🕶️ **Studly Vowels/Consonants** — Coined by ChronicRhyno (citing David iIii for ‘Studly Caps’)
 * 🦏 **Rhino Family** (`RhinoCase`, `ChronicRhyno`, `StudlyRhino`) — Involving small caps and vowel-focused styling.
