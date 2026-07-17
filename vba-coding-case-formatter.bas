@@ -1,17 +1,17 @@
 Attribute VB_Name = "RhinoCase"
 '                _...:::::::::::..._         __________________________________________________________________________         _...:::::::::::..._
-'           _.::¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦:::;-..[  VBA TERMINAL TEXT CASE FORMATTING TOOL                                  ]..-;:::¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦::._
-'         :¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦|==========================================================================|¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦:
-'       /:¦:::'''':::¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦\¦¦¦¦¦¦¦|  Copyright (c) 2026 ChronicRhyno                                         |¦¦¦¦¦¦/¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦:::'''':::¦:\
-'    .~:¦'            ':¦¦¦¦¦¦¦¦\¦¦¦¦\\¦¦¦¦¦|                                                                          |¦¦¦¦//¦¦¦¦/¦¦¦¦¦¦¦¦¦:'            '¦:~.
-' *~` /                 \¦¦¦¦¦¦¦||¦¦¦¦||¦¦¦¦|  Permission is hereby granted, free of charge, to any person obtaining   |¦¦¦||¦¦¦¦||¦¦¦¦¦¦¦¦/                 \ `~*
-'     |                  \¦¦¦¦¦¦||¦¦¦¦||¦¦¦¦|  a copy of this software and associated documentation files, to deal     |¦¦¦||¦¦¦¦||¦¦¦¦¦¦¦/                  |
-'     |                   |¦¦¦¦¦||¦¦¦¦||¦¦¦¦|  in the Software without restriction, including without limitation the   |¦¦¦||¦¦¦¦||¦¦¦¦¦¦|                   |
-'     |                   |¦¦¦¦¦||¦¦¦¦||¦¦¦¦|  rights to use, copy, modify, merge, publish, distribute, sublicense,    |¦¦¦||¦¦¦¦||¦¦¦¦¦¦|                   |
-'      \                  |¦¦¦¦¦/¦¦¦¦¦||¦¦¦¦|  and/or sell copies of the Software.                                     |¦¦¦||¦¦¦¦¦\¦¦¦¦¦¦|                  /
-'       |                /¦¦¦¦¦¦¦¦¦¦¦//¦¦¦¦¦|                                                                          |¦¦¦¦\\¦¦¦¦¦¦¦¦¦¦¦¦\                |
-'        \            `_/;¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦|  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,         |¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦;\_`            /
-'         |_         ;_/ ;¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦|  EXPRESS OR IMPLIED.                                                     |¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦;  \_;         _|
+'           _.::Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦:::;-..[  VBA TERMINAL TEXT CASE FORMATTING TOOL                                  ]..-;:::Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦::._
+'         :Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦|==========================================================================|Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦:
+'       /:Â¦:::'''':::Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦\Â¦Â¦Â¦Â¦Â¦Â¦Â¦|  Copyright (c) 2026 ChronicRhyno                                         |Â¦Â¦Â¦Â¦Â¦Â¦/Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦:::'''':::Â¦:\
+'    .~:Â¦'            ':Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦\Â¦Â¦Â¦Â¦\\Â¦Â¦Â¦Â¦Â¦|                                                                          |Â¦Â¦Â¦Â¦//Â¦Â¦Â¦Â¦/Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦:'            'Â¦:~.
+' *~` /                 \Â¦Â¦Â¦Â¦Â¦Â¦Â¦||Â¦Â¦Â¦Â¦||Â¦Â¦Â¦Â¦|  Permission is hereby granted, free of charge, to any person obtaining   |Â¦Â¦Â¦||Â¦Â¦Â¦Â¦||Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦/                 \ `~*
+'     |                  \Â¦Â¦Â¦Â¦Â¦Â¦||Â¦Â¦Â¦Â¦||Â¦Â¦Â¦Â¦|  a copy of this software and associated documentation files, to deal     |Â¦Â¦Â¦||Â¦Â¦Â¦Â¦||Â¦Â¦Â¦Â¦Â¦Â¦Â¦/                  |
+'     |                   |Â¦Â¦Â¦Â¦Â¦||Â¦Â¦Â¦Â¦||Â¦Â¦Â¦Â¦|  in the Software without restriction, including without limitation the   |Â¦Â¦Â¦||Â¦Â¦Â¦Â¦||Â¦Â¦Â¦Â¦Â¦Â¦|                   |
+'     |                   |Â¦Â¦Â¦Â¦Â¦||Â¦Â¦Â¦Â¦||Â¦Â¦Â¦Â¦|  rights to use, copy, modify, merge, publish, distribute, sublicense,    |Â¦Â¦Â¦||Â¦Â¦Â¦Â¦||Â¦Â¦Â¦Â¦Â¦Â¦|                   |
+'      \                  |Â¦Â¦Â¦Â¦Â¦/Â¦Â¦Â¦Â¦Â¦||Â¦Â¦Â¦Â¦|  and/or sell copies of the Software.                                     |Â¦Â¦Â¦||Â¦Â¦Â¦Â¦Â¦\Â¦Â¦Â¦Â¦Â¦Â¦|                  /
+'       |                /Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦//Â¦Â¦Â¦Â¦Â¦|                                                                          |Â¦Â¦Â¦Â¦\\Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦\                |
+'        \            `_/;Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦|  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,         |Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦;\_`            /
+'         |_         ;_/ ;Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦|  EXPRESS OR IMPLIED.                                                     |Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦;  \_;         _|
 '          \       #;_|  ``'''''''''''''''''|==========================================================================|''''''''''''''``     |_;#       /
 '          |       ._/                                                                                                                        \_.       |
 '          |_       |                                              May you have fun in any case.                                               |       _|
@@ -31,7 +31,7 @@ Sub VBAterminalTEXTcaseFORMATTINGtool()
     promptMessage = "  TEXT CASE FORMATTING TOOL" & vbCrLf & vbCrLf & _
                     "   [1]  Camel Case  (lowerFirstWord)" & vbCrLf & _
                     "   [2]  Pascal Case (SmartTitleCase)" & vbCrLf & _
-                    "   [3]  Zeebra Case (all|lowercase|piped)" & vbCrLf & _
+                    "   [3]  Zebra Case (all|lowercase|piped)" & vbCrLf & _
                     "   [4]  kebab-case  (all-lowercase-dashed)" & vbCrLf & _
                     "   [5]  snake_case  (all_lowercase_joined)" & vbCrLf & _
                     "   [6]  Inchworm Case (alternate per word)" & vbCrLf & _
@@ -57,7 +57,7 @@ Sub VBAterminalTEXTcaseFORMATTINGtool()
             selectedRange.Text = PascalCase(selectedRange.Text)
         Case "3"
             ResetRangeFormatting selectedRange
-            selectedRange.Text = ZeebraCase(selectedRange.Text)
+            selectedRange.Text = ZebraCase(selectedRange.Text)
         Case "4"
             ResetRangeFormatting selectedRange
             selectedRange.Text = KebabCase(selectedRange.Text)
@@ -164,9 +164,9 @@ FuncError:
     PascalCase = txt
 End Function
 
-' 3. Zeebra Case (all lowercase, spaces replaced with single pipes)
+' 3. Zebra Case (all lowercase, spaces replaced with single pipes)
 ' Coined by ChronicRhyno
-Function ZeebraCase(ByVal txt As String) As String
+Function ZebraCase(ByVal txt As String) As String
     On Error GoTo FuncError
     
     txt = Replace(txt, Chr(160), " ")
@@ -176,12 +176,12 @@ Function ZeebraCase(ByVal txt As String) As String
         txt = Replace(txt, "  ", " ")
     Loop
     
-    ZeebraCase = Replace(txt, " ", "|")
+    ZebraCase = Replace(txt, " ", "|")
     
     Exit Function
     
 FuncError:
-    ZeebraCase = txt
+    ZebraCase = txt
 End Function
 
 ' 4. Kebab-Case (all lowercase, spaces replaced with dashes)
