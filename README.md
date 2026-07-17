@@ -32,3 +32,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 Contributions, naming convention suggestions, and bug fixes are welcome! Feel free to open an issue or submit a pull request.
 
 ![VBA Terminal Demo](vba-terminal-demo.png)
+
+## Development Sandbox
+I am currently developing the core logic for this tool. You can find the active prototype in `text-to-unicode-approximations-of-coding-cases.xlsx`, which I use to test Unicode approximations before implementing them in the VBA code.
+This project is currently under active development.
