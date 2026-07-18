@@ -22,7 +22,7 @@ This tool provides a terminal-style interface for transforming selected text int
 2. Open Microsoft Word.
 3. Press `Alt` + `F11` to open the VBA Editor.
 4. Right-click on your project in the left pane and select **Import File...**
-5. Select the `TerminalFormatting.bas` file.
+5. Select the `vba-coding-case-formatter.bas` file.
 6. Run the macro `VBAterminalTEXTcaseFORMATTINGtool` with text selected.
 
 ## 📜 Licensing
